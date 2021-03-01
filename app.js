@@ -9,6 +9,10 @@ app.get('/', (req, res) => {
     res.render('home')
 })
 
+app.get('/create_note', (req, res) => {
+    res.render('create_note')
+})
+
 app.listen(8000, err => {
     if (err) throw err
     console.log('App is running ...')
