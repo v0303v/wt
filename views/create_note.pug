@@ -2,6 +2,7 @@ extends layout.pug
 
 block content
     main.content    
+<<<<<<< HEAD
         h1.page-title Create Note Form
 
         form.form(methods='POST' action='/create_note')
@@ -12,5 +13,17 @@ block content
             textarea.input(type='text' name='desc' rows='7')
 
             button.btn(type='submit') Create note 
+=======
+        h1 Create Note Form
+
+        from(methods='POST' action='/create_note')
+            label Title
+            input(type='text' name='title')    
+
+            label Description 
+            textarea(type='text' name='desc' rows='7')
+
+            button(type='submit') Create note 
+>>>>>>> aa8e08ff6c416c7e9895fdd60f0d20d0c04620f1
 
         

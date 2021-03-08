@@ -51,6 +51,7 @@ a:hover {
 .feature:hover {
     background: mediumseagreen;
     color: red;
+<<<<<<< HEAD
 }
 
 /* Create Note */
@@ -97,4 +98,6 @@ a:hover {
     border-bottom: 1px solid #ccc;
     font-size: 1.4rem;
     padding: 10px;
+=======
+>>>>>>> aa8e08ff6c416c7e9895fdd60f0d20d0c04620f1
 }
