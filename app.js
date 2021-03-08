@@ -18,6 +18,10 @@ app.get('/notes', (req, res) => {
     res.render('all_notes', { notes: notes})
 })
 
+app.get('/notes/detail', (req, res) => {
+    res.render('notes_detail')
+})
+
 app.listen(8000, err => {
     if (err) throw err
     console.log('App is running ...')
