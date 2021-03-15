@@ -6,6 +6,6 @@ block content
         
         if notes.length
             each note in notes 
-                a.note(href='/notes/detail')= note 
+                a.note(href=`notes/${note.id}`) #{ note.title } 
         else 
-            p There are no any notes yet!
+            p ¡Aún no hay notas!
